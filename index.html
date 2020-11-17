@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script >
+                  alert('você está observando projeto PARALLAX')
+            </script>
+	<title>Parallax Projeto</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+            
+		/*fonte de textos centrais e abaixo das imagens */
+
+		@font-face{
+			font-family: "RoadRageheitor";
+			src:url("RoadRageheitor.woff");}/*especifica fonte*/
+
+		#ga{ font-size: 3em;
+		 font-family: "RoadRageheitor";text-shadow: 10px 10px black; }/*texto palavra da imagem Mario*/
+
+		 #gat {font-size: 1.5em;
+		 font-family: "RoadRageheitor";text-shadow: 5px 5px black; }/*texto abaixo da imagem Mario*/
+
+		 @font-face{font-family: "LivermoreRegularhannah";
+			src:url("LivermoreRegularhannah.woff");}/*especifica fonte*/
+
+		#un{
+			font-size:3em;
+			font-family: "LivermoreRegularhannah";
+		}/*texto palavra da imagem espaco*/
+		#unt{font-size:1.5em;
+		font-family: "LivermoreRegularhannah";}/*texto abaixo da imagem espaco*/
+
+
+		@font-face{
+			font-family: "YonittaSignaturehugo";
+			src:url("YonittaSignaturehugo.woff");}/*especifica fonte*/
+		#ba{font-size:3em;
+			src:url("YonittaSignaturehugo.woff");}/*texto palavra da imagem1*/
+		#bat{font-size:1.5em;
+		 font-family: "YonittaSignaturehugo";}/*texto abaixo da imagem1*/	
+
+
+		@font-face{
+			font-family: "Maelhigor";
+			src:url("Maelhigor.woff");}/*especifica fonte*/
+		#ie{
+			font-size:3em;
+			src:url(Maelhigor.woff);
+		}/*texto palavra imagem visao*/
+
+		#iet{font-size:1.5em;
+		font-family: "Maelhigor"; }/*texto abaixo da imagem visao*/
+
+		 #utd{text-align: center;}/*ultima div/div copyright*/	
+
+
+			
+
+
+
+		/*--formatação/config da página--*/
+		.conteudo{
+			color:#777;
+			background-color:white;
+			text-align: justify;
+			padding: 50px 80px; 
+		}
+		body,html{margin: 0;
+			font: 16px "lato",sans-serif;
+			color:#777;
+			height: 100%;
+			 }
+		h3{text-transform:uppercase;
+		color: #111;
+		text-align: center; }
+		p{margin-bottom:20px; }
+
+		/*parallax*/
+
+		.caixa1,.caixa2,.caixa3,.caixa4{
+			position:relative; 
+			height: 100%;
+			opacity: 0.7;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment:fixed; 
+		}
+		.caixa1{
+			background-image:url(imagens/imagem1.jpg); 
+
+		}
+		.caixa2{
+			background-image:url(imagens/espaco.jpg);
+
+		}
+		.caixa3{
+			background-image:url(imagens/mario.jpg);
+
+		}
+		.caixa4{
+			background-image:url(imagens/visao.jpg);
+
+		}
+		.titulo{position:absolute;
+		left:0%;
+		top: 45%;
+		width: 100%;
+		
+		text-align: center;
+		  }
+		.titulo span.titulo2{color: #fff;
+		background-color:#111;
+		padding: 17px;
+		font-size: 25px;
+		letter-spacing: 5px;}
+	</style>
+</head>
+<body>
+<div class="caixa1" >
+<div class="titulo" >
+	<span class="titulo2" id="ba" >BALÕES</span>
+</div>
+</div>
+<div class="conteudo" >
+
+	<h3>
+		PARALLAX-YonittaSignature
+
+		<p id="bat" >Paralaxe (do grego παραλλαγή, que significa alteração) é a diferença na posição aparente de um objeto em relação a um plano de fundo, tal como visto por observadores em locais distintos ou por um observador em movimento.</p>
+	</h3>
+</div>
+<div class="caixa2" >
+	<div class="titulo" >
+		<span class="titulo2" id="un" >UNYVERSE</span> 
+	</div>
+</div>
+	<div class="conteudo" >
+
+	<h3>PARALLAX-LivermoreRegular
+
+	<P id="unt">
+	Em astronomia, a paralaxe estelar é utilizada para medir a distância das estrelas utilizando o movimento da Terra em sua órbita.
+
+	É o ângulo formado pelas semirretas que partem do centro de um astro e vão ter, uma ao centro da Terra, outra ao ponto onde se acha o observador.</P></h3>
+
+	</div>
+</div>
+<div class="caixa3" >
+
+	<div class="titulo" >
+
+		<span class="titulo2" id="ga" >GAMES</span>
+	</div>
+</div>
+<div class="conteudo" >
+
+	<h3>PARALLAX-RoadRage
+
+		<p id="gat" >
+
+			Um termo pouco visto, o qual talvez você não saiba o significado, mas que com certeza já visualizou em diversos games. O tal “parallax” é na verdade uma forma de enganar nosso cérebro utilizando objetos de tamanhos diferentes e com velocidades diferentes para criar um aspecto de profundidade.
+
+		</p>
+	</h3>
+	
+</div>
+
+<div class="caixa4" >
+
+	<div class="titulo" >
+
+		<span class="titulo2" id="ie" >IMAGEM EXPLICATIVA</span>
+	</div>
+</div>
+<div class="conteudo" >
+
+	<h3>PARALLAX-Mael
+
+		<p id="iet" >
+
+			Parallax é a diferença na posição de objetos vistos em diferentes faixas de visão, medido pelo ângulo de inclinação entre as faixas.
+		</p>
+	</h3>
+</div>
+
+<div id="utd" > <strong>&copy;copyright2020-2021/PROJETO PARALLAX</strong>
+</div>
+
+</body>
+</html>
